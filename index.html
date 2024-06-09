@@ -1,26 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centered Image</title>
+    <title>MOGZE</title>
     <style>
         body {
-            background-color: #ff0055; /* Change this to your preferred background color */
+            background-color: #ff0055;
+            /* Change this to your preferred background color */
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
+            font-family: Arial, sans-serif;
         }
+
         img {
             max-width: 100%;
             height: auto;
         }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        footer a {
+            margin: 0 10px;
+            color: #000;
+            /* Change this to your preferred link color */
+            text-decoration: none;
+            color: #7cbeff
+        }
+
+        footer a:hover {
+            margin: 0 10px;
+            color: #7cbeff;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+        }
     </style>
 </head>
+
 <body>
     <img src="header.png" alt="Centered Image">
+    <footer>
+        <a href="privacy_notice.html">Privacy Notice</a>
+        <!-- <a href="#link2">Link 2</a>
+        <a href="#link3">Link 3</a> -->
+    </footer>
 </body>
-</html>
 
+</html>
